@@ -1,0 +1,31 @@
+header {
+    position: absolute;
+    margin-left: 35%;
+    width: 30%;
+    height: 40%;
+    background-color: #8B0000;
+    margin-top: 16%;
+    border: 1px;
+    border-color: white;
+}
+.avatar {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    border-radius: 5%; 
+    margin-left: 41%;
+    margin-top: 280px;
+
+  }
+  .rounded div img {
+    width: 200px; 
+    height: auto; 
+    -webkit-transition: .3s ease-in-out; 
+    transition: .3s ease-in-out; 
+  }
+  .rounded div:hover img:hover {
+    width: 150px; 
+    height: 150px;
+    border-radius: 50%; 
+  }
+  
