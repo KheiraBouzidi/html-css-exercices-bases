@@ -1,0 +1,54 @@
+body {
+    margin: O;
+    padding: 0;
+    background-color: grey;
+    font-family: 'Courier New', Courier, monospace;
+}
+header nav {
+    background-color: #A9A9A9;
+}
+header nav ul {
+    padding: 0;
+    list-style-type: none;
+    width: 50%;
+    margin: auto;
+    justify-content: flex-end;
+    display: flex;
+}
+header nav ul li {
+    padding: 10px;
+}
+header nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+header nav ul li a:hover {
+    color: black;
+}
+main {
+    width: 50%;
+    margin: auto;
+    padding: 50px;
+    background-color: white;
+}
+main article {
+    margin: auto;
+    padding: 10px;
+    width: 100%;
+    background-color: white;
+}
+
+main article {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid darkgray;
+}
+main article > div > p  {
+    padding: 10px;
+    text-align: justify;
+    margin: auto;
+}
+h1 {
+    text-align: centrer;
+}
